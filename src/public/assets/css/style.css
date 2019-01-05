@@ -5,3 +5,17 @@ background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, F
 
 
 }
+
+.blue-text {
+  color: #09f;
+}
+
+.m-b {
+  margin-bottom: 5px;
+}
+
+/* Login */
+
+.logo {
+  width: 55%;
+}
