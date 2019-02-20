@@ -1,5 +1,10 @@
 <div class="row">
+  <div class="col-12">
+      <h1>Bienvenido {{user.name}}</h1>
+      <br>
+  </div>
   {{#each notes}}
+  
     <div class="col-md-3">
       <div class="card m-b">
         <div class="card-body">
@@ -20,6 +25,7 @@
   {{else}}
     <div class="card mx-auto">
       <div class="card-body">
+        <h1>Bienvenido {{user.name}}</h1>
         <p class="lead">No hay notas aún.</p>
         <a href="/notes/new" class="btn btn-primary btn-block">Crea una</a>
       </div>
